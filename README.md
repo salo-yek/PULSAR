@@ -49,7 +49,7 @@ The software is distributed as a portable executable (`.exe`) and does not requi
 2.  Download the latest `.zip` archive or `.exe` file.
 3.  Run `PULSAR.exe`.
 
-> **Requirements:** Windows 10/11.
+> **Requirements:** Windows 10/11/Linux.
 
 ### 🛡️ Important Note Regarding Antivirus
 Antivirus software (e.g., Windows Defender) may flag this application as a threat (e.g., *HackTool:Win32/Pulsar*). This is a **False Positive**—standard behavior for tools that contain network scanners and stress testing modules. You may need to add an exception to run it.
