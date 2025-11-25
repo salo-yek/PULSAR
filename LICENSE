@@ -1,0 +1,24 @@
+PULSAR SOFTWARE LICENSE AGREEMENT (EULA)
+
+COPYRIGHT (c) 2025 PULSAR
+ALL RIGHTS RESERVED.
+
+1. GRANT OF LICENSE
+Permission is hereby granted, free of charge, to any person obtaining a copy of the PULSAR software ("the Software"), to use the Software for personal, educational, or professional purposes.
+
+2. RESTRICTIONS
+You may NOT:
+(a) Decompile, reverse engineer, disassemble, or attempt to derive the source code of the Software.
+(b) Modify, translate, or create derivative works of the Software.
+(c) Sell, rent, lease, or sublicense the Software for profit without prior written consent from the Author.
+(d) Remove or alter any copyright notices or proprietary markings on the Software.
+
+3. EDUCATIONAL USE & RESPONSIBILITY
+This Software is designed for network diagnostics and educational security testing only.
+You agree to use this Software exclusively on networks and systems for which you have explicit permission. The Author is not responsible for any illegal use of this tool.
+
+4. DISCLAIMER OF WARRANTY
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED. THE AUTHOR DISCLAIMS ALL WARRANTIES, INCLUDING FITNESS FOR A PARTICULAR PURPOSE.
+
+5. LIMITATION OF LIABILITY
+IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY DAMAGES (INCLUDING, BUT NOT LIMITED TO, LOSS OF DATA, SYSTEM FAILURE, OR LEGAL CONSEQUENCES) ARISING FROM THE USE OF THIS SOFTWARE.
