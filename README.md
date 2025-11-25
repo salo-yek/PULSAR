@@ -57,7 +57,7 @@ Antivirus software (e.g., Windows Defender) may flag this application as a threa
 ### 🔑 Administrator Privileges
 To use advanced features such as:
 *   Sniffer (Raw Sockets),
-*   Network Stresser (UDP),
+*   Network Stresser (UDP) (Recommended),
 *   OS Detection (Ping/TTL),
 
 ...you must run the program as **Administrator** (Right-click -> *Run as administrator*).
