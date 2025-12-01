@@ -1,4 +1,4 @@
-# PULSAR Network Toolkit (v2.9)
+# PULSAR Network Toolkit (v3.0)
 
 ![Status](https://img.shields.io/badge/Status-Freeware-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
