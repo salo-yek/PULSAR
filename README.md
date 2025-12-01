@@ -13,7 +13,7 @@
 > 
 > The author assumes no liability for any damage caused by the misuse of this software. Using offensive modules (e.g., Network Stresser) on servers without the owner's explicit permission is illegal. By downloading this software, you agree to the terms of the EULA.
 
-## 🚀 Features (v2.9)
+## 🚀 Features (v3.0)
 
 The toolkit is divided into three main categories:
 
