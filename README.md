@@ -2,6 +2,7 @@
 
 ![Status](https://img.shields.io/badge/Status-Freeware-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![Platform](https://img.shields.io/badge/Platform-Linux-orange)
 ![Security](https://img.shields.io/badge/Purpose-Educational-red)
 
 **PULSAR** is an advanced console-based network toolkit and pentesting suite for Windows. The application integrates 17 diagnostic modules, OSINT tools, and security auditing functions (Red Teaming) into a single interface.
