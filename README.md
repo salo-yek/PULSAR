@@ -1,11 +1,12 @@
-# PULSAR Network Toolkit (v3.0)
+# 🚀 PULSAR Network Toolkit (v3.1)
 
 ![Status](https://img.shields.io/badge/Status-Freeware-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange)
+![Version](https://img.shields.io/badge/Version-3.1%20(Cluster%20Sync)-3947a9)
 ![Security](https://img.shields.io/badge/Purpose-Educational-red)
 
-**PULSAR** is an advanced console-based network toolkit and pentesting suite for Windows. The application integrates 17 diagnostic modules, OSINT tools, and security auditing functions (Red Teaming) into a single interface.
+**PULSAR** is an advanced console-based network toolkit and pentesting suite for Windows and Linux. The application integrates 19 diagnostic modules, OSINT tools, and security auditing functions (Red Teaming) into a single interface.
 
 > [!WARNING]
 > **DISCLAIMER / LEGAL NOTICE**
@@ -14,20 +15,23 @@
 > 
 > The author assumes no liability for any damage caused by the misuse of this software. Using offensive modules (e.g., Network Stresser) on servers without the owner's explicit permission is illegal. By downloading this software, you agree to the terms of the EULA.
 
-## 🚀 Features (v3.0)
+## 🚀 Features (v3.1)
 
-The toolkit is divided into three main categories:
+The toolkit is divided into four main categories:
 
 ### 🛡️ Network & Diagnostics
 *   **Network Stresser:** Network load testing (HTTP/HTTPS/UDP) with multi-threading support.
 *   **Advanced Network Scanner:** LAN scanning (ARP), MAC Vendor detection, and OS Fingerprinting based on TTL.
 *   **Passive Traffic Monitor:** Real-time packet sniffer (detects DNS queries and HTTP traffic).
-*   **TCP Listener:** *[NEW]* Simple port listener (Netcat alternative) for testing connectivity.
+*   **TCP Listener:** Simple port listener (Netcat alternative) for testing connectivity.
 *   **WiFi Scanner:** Scans wireless networks and evaluates signal strength/security.
 *   **Traceroute:** Packet route tracing with latency visualization.
 
+### 🌐 Cluster Mode (NEW)
+*   **Cluster Mode (C):** Centralized control for synchronized attacks across multiple PULSAR instances (Master/Slave setup).
+
 ### 🌐 Web & OSINT
-*   **Web Crawler:** *[NEW]* Extracts internal and external links from target websites.
+*   **Web Crawler:** Extracts internal and external links from target websites.
 *   **Subdomain Enumerator:** Brute-force discovery of subdomains (e.g., admin.site.com, dev.site.com).
 *   **Web Directory Scanner:** Scans for hidden resources (admin panels, backups, config files).
 *   **Tech & CMS Detector:** Identifies server technologies and CMS (WordPress, Joomla, Laravel, etc.).
@@ -39,29 +43,33 @@ The toolkit is divided into three main categories:
 *   **Target Port Scanner:** Deep TCP port scanning for a specific host.
 *   **IP Calculator:** Subnet calculator (CIDR, Broadcast, Host Range).
 *   **Password & Hash Tool:** Hash generation (MD5, SHA256) and password strength analysis.
+*   **MAC Address Changer (Spoofer):** Changes the local network adapter's MAC address.
+*   **Hostname Changer (Spoofer):** Modifies the system's hostname via the Registry.
 
 ---
 
 ## 📥 Download & Installation
 
-The software is distributed as a portable executable (`.exe`) and does not require installation.
+The software is distributed as a portable executable and does not require installation.
 
 1.  Go to the **[Releases](../../releases)** tab on the right side of this page.
-2.  Download the latest `.zip` archive or `.exe` file.
-3.  Run `PULSAR.exe`.
+2.  Download the latest `.zip` archive or the executable file for your architecture.
+3.  Run the corresponding executable (`PULSARx64.exe` / `PULSARlinux-x64`, etc.).
 
 > **Requirements:** Windows 10/11/Linux.
 
 ### 🛡️ Important Note Regarding Antivirus
-Antivirus software (e.g., Windows Defender) may flag this application as a threat (e.g., *HackTool:Win32/Pulsar*). This is a **False Positive**—standard behavior for tools that contain network scanners and stress testing modules. You may need to add an exception to run it.
+Antivirus software (e.g., Windows Defender) may flag this application as a threat (e.g., *HackTool*). This is a **False Positive**—standard behavior for tools that contain network scanners and stress testing modules. You may need to add an exception to run it.
 
 ### 🔑 Administrator Privileges
 To use advanced features such as:
+*   Cluster Mode,
 *   Sniffer (Raw Sockets),
 *   Network Stresser (UDP) (Recommended),
 *   OS Detection (Ping/TTL),
+*   MAC/Hostname Spoofer,
 
-...you must run the program as **Administrator** (Right-click -> *Run as administrator*).
+...you must run the program as **Administrator** (Right-click -> *Run as administrator*, or type ***y*** in the start).
 
 ---
 
