@@ -5,7 +5,7 @@
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange)
 ![Version](https://img.shields.io/badge/Version-3.2%20(Auth%20Testing%20Core)-3947a9)
 ![Security](https://img.shields.io/badge/Purpose-Educational-red)
-![Brute-Force](https://img.shields.io/badge/BruteForce-rockyou.txt-red)
+![Brute-Force](https://img.shields.io/badge/BruteForce-rockyou.txt-pink)
 
 **PULSAR** is an advanced console-based network toolkit and pentesting suite for Windows and Linux. The application integrates over 20 diagnostic modules, OSINT tools, and advanced security auditing functions (Red Teaming) into a single interface.
 
