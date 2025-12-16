@@ -1,12 +1,12 @@
-# 🚀 PULSAR Network Toolkit (v3.1)
+# 🚀 PULSAR Network Toolkit (v3.2)
 
 ![Status](https://img.shields.io/badge/Status-Freeware-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange)
-![Version](https://img.shields.io/badge/Version-3.1%20(Cluster%20Sync)-3947a9)
+![Version](https://img.shields.io/badge/Version-3.2%20(Auth%20Testing%20Core)-3947a9)
 ![Security](https://img.shields.io/badge/Purpose-Educational-red)
 
-**PULSAR** is an advanced console-based network toolkit and pentesting suite for Windows and Linux. The application integrates 19 diagnostic modules, OSINT tools, and security auditing functions (Red Teaming) into a single interface.
+**PULSAR** is an advanced console-based network toolkit and pentesting suite for Windows and Linux. The application integrates over 20 diagnostic modules, OSINT tools, and advanced security auditing functions (Red Teaming) into a single interface.
 
 > [!WARNING]
 > **DISCLAIMER / LEGAL NOTICE**
@@ -15,7 +15,7 @@
 > 
 > The author assumes no liability for any damage caused by the misuse of this software. Using offensive modules (e.g., Network Stresser) on servers without the owner's explicit permission is illegal. By downloading this software, you agree to the terms of the EULA.
 
-## 🚀 Features (v3.1)
+## 🚀 Features (v3.2)
 
 The toolkit is divided into four main categories:
 
@@ -27,8 +27,13 @@ The toolkit is divided into four main categories:
 *   **WiFi Scanner:** Scans wireless networks and evaluates signal strength/security.
 *   **Traceroute:** Packet route tracing with latency visualization.
 
-### 🌐 Cluster Mode (NEW)
+### 🔑 Authentication Testing (NEW CORE)
+*   **Web Brute-Force (Module 17):** Automated login attempts via HTTP requests or **Keyboard Emulation** (Windows only).
+*   **Hash Cracker (Module 19):** High-speed dictionary-based cracking for **MD5, SHA1, SHA256, SHA512**, and **BCRYPT** hashes.
+
+### 🌐 Cluster Mode & System
 *   **Cluster Mode (C):** Centralized control for synchronized attacks across multiple PULSAR instances (Master/Slave setup).
+*   **Auto-Update System (U):** Program automatically checks, downloads, and relaunches the newest version.
 
 ### 🌐 Web & OSINT
 *   **Web Crawler:** Extracts internal and external links from target websites.
@@ -43,8 +48,6 @@ The toolkit is divided into four main categories:
 *   **Target Port Scanner:** Deep TCP port scanning for a specific host.
 *   **IP Calculator:** Subnet calculator (CIDR, Broadcast, Host Range).
 *   **Password & Hash Tool:** Hash generation (MD5, SHA256) and password strength analysis.
-*   **MAC Address Changer (Spoofer):** Changes the local network adapter's MAC address.
-*   **Hostname Changer (Spoofer):** Modifies the system's hostname via the Registry.
 
 ---
 
@@ -67,7 +70,7 @@ To use advanced features such as:
 *   Sniffer (Raw Sockets),
 *   Network Stresser (UDP) (Recommended),
 *   OS Detection (Ping/TTL),
-*   MAC/Hostname Spoofer,
+*   Keyboard Emulation (Windows Only),
 
 ...you must run the program as **Administrator** (Right-click -> *Run as administrator*, or type ***y*** in the start).
 
