@@ -1,91 +1,98 @@
-# 🚀 PULSAR Network Toolkit (v3.3)
+# 🚀 PULSAR Network Toolkit (v3.4)
 
 ![Status](https://img.shields.io/badge/Status-Freeware-green)
 ![Platform](https://img.shields.io/badge/Platform-Windows-blue)
 ![Platform](https://img.shields.io/badge/Platform-Linux-orange)
-![Version](https://img.shields.io/badge/Version-3.3%20(AutoUpdate%20%26%20Cluster%20v2)-3947a9)
-![Security](https://img.shields.io/badge/Purpose-Educational-red)
-![WiFi-Attack](https://img.shields.io/badge/New-WiFi%20Deauth%20(Mod%2020)-pink)
+![Version](https://img.shields.io/badge/Version-3.4%20(Deep%20Scan%20%26%20Post--Exp)-purple)
+![Security](https://img.shields.io/badge/Purpose-Red%20Teaming-red)
+![Anonymity](https://img.shields.io/badge/Feature-Proxy%20Deep%20Scan-cyan)
 
-**PULSAR** is an advanced console-based network toolkit and pentesting suite for Windows and Linux. The application integrates over 20 diagnostic modules, OSINT tools, and advanced security auditing functions (Red Teaming) into a single interface.
+**PULSAR v3.4** represents a massive leap forward in anonymity and offensive capabilities. This release introduces the **Proxy Database Deep Scan** engine for finding high-speed tunneling nodes and a brand new **Post-Exploitation Framework** for Windows environments.
 
 > [!WARNING]
 > **DISCLAIMER / LEGAL NOTICE**
 > 
 > This program was created **solely for educational purposes** and for **authorized security testing** of your own infrastructure.
 > 
-> The author assumes no liability for any damage caused by the misuse of this software. Using offensive modules (e.g., Network Stresser) on servers without the owner's explicit permission is illegal. By downloading this software, you agree to the terms of the EULA.
+> The author assumes no liability for any damage caused by the misuse of this software. Using offensive modules (e.g., Network Stresser, Credential Dumping) on systems without the owner's explicit permission is illegal. By downloading this software, you agree to the terms of the EULA.
 
-## 🚀 Features (v3.3)
+## 🚀 New Features in v3.4
 
-The toolkit is divided into four main categories:
+### 🕵️‍♂️ Proxy Database Deep Scan (Module P)
+A completely rewritten networking core designed for maximum anonymity and speed.
+*   **Global Node Search:** Scans PULSAR's extensive database to identify the fastest available **HTTP, HTTPS, and SOCKS5** tunneling nodes.
+*   **Latency-Based Selection:** Automatically tests thousands of endpoints and selects the one with the lowest ping for your session.
+*   **Smart Caching:** Saves the best performing nodes to an encrypted local cache for instant connection on the next startup.
+*   **Auto-Rotation:** Configurable options to rotate IP addresses on every request or at set intervals.
 
-### 🛡️ Network & Diagnostics
-*   **Network Stresser:** Network load testing (HTTP/HTTPS/UDP) with multi-threading support.
-*   **Advanced Network Scanner:** LAN scanning (ARP/Ping), MAC Vendor detection, and OS Fingerprinting based on TTL.
-*   **Passive Traffic Monitor:** Real-time packet sniffer (detects DNS queries and HTTP traffic - Windows Admin/Linux Root required).
-*   **TCP Listener:** Simple port listener (Netcat alternative) for testing connectivity.
-*   **WiFi Scanner:** Scans wireless networks and evaluates signal strength/security.
-*   **WiFi Deauth Attack (Module 20):** New dedicated module for launching Deauthentication attacks against Wi-Fi targets (Linux Root required).
-*   **Traceroute:** Packet route tracing with latency visualization.
+### 🏴‍☠️ Post-Exploitation Framework (Windows)
+A new dedicated menu for advanced operations on compromised systems (Requires Admin privileges).
+*   **Privilege Escalation Scan (Mod 21):** Audits the system for common misconfigurations (Unquoted Service Paths, AlwaysInstallElevated registry keys) that allow standard users to gain System access.
+*   **Credential Dumping (Mod 22):** Exports **SAM** and **SYSTEM** registry hives for offline NTLM hash extraction.
+*   **System Cleanup (Mod 23):** "Anti-Forensics" module that wipes PULSAR configuration traces and clears Windows Event Logs (Application, System, Security) to cover tracks.
 
-### 🔑 Authentication Testing (CORE)
-*   **Web Brute-Force (Module 17):** Automated login attempts via HTTP requests or **Keyboard Emulation** (Windows only).
-*   **Hash Cracker (Module 19):** High-speed dictionary-based cracking for **MD5, SHA1, SHA256, SHA512**, and **BCRYPT** hashes.
+### ☁️ Cloud-Synced Intelligence
+*   **Live Definitions:** The Directory Scanner and Subdomain Enumerator now sync with the cloud database at startup. This ensures your wordlists are always up-to-date with the latest known vulnerabilities and admin panel paths without needing to update the software manually.
 
-### 🌐 Cluster Mode & System Integration
-*   **Cluster Mode (C):** Centralized control for synchronized attacks across multiple PULSAR instances (Master/Slave setup). **Cluster Port updated to 6669.**
-*   **Auto-Update System (U):** Program automatically checks, downloads, and relaunches the newest version.
-*   **System Integration (S):** New settings for **PATH Integration** and **Windows Startup Apps** management.
+### 🔐 Enhanced Security
+*   **AES-256 Encryption:** All local configuration data (session tokens, proxy cache) is now encrypted using a unique local key for improved security.
+*   **Secure Connection:** Updated TLS protocols for all remote communications.
 
-### 🌐 Web & OSINT
-*   **Web Crawler:** Extracts internal and external links from target websites.
-*   **Subdomain Enumerator:** Brute-force discovery of subdomains (e.g., admin.site.com, dev.site.com).
-*   **Web Directory Scanner:** Scans for hidden resources (admin panels, backups, config files).
-*   **Tech & CMS Detector:** Identifies server technologies and CMS (WordPress, Joomla, Laravel, etc.).
-*   **SSL Inspector:** Analyzes SSL/TLS certificates and the chain of trust.
-*   **HTTP Header Analyzer:** Audits security headers (XSS-Protection, CSP, HSTS).
-*   **Whois & GeoIP:** Domain registration data and physical IP geolocation.
+---
 
-### 🔧 Utilities
-*   **Target Port Scanner:** Deep TCP port scanning for a specific host.
-*   **IP Calculator:** Subnet calculator (CIDR, Broadcast, Host Range).
-*   **Password & Hash Tool:** Hash generation (MD5, SHA256) and password strength analysis.
+## 🛠️ Full Feature List
+
+### 🛡️ Offensive Operations & Post-Exploitation
+*   **Network Stresser (Layer 4/7):** Advanced load testing with support for UDP, TCP, HTTP, HTTP HEAD, Slowloris, and Amplification vectors (NTP/DNS).
+*   **Privilege Escalation Scanner:** Detecting system vulnerabilities on local Windows machines.
+*   **Credential Dumper:** extracting SAM/SYSTEM hives.
+*   **Log Wiper:** Clearing Windows Event Logs.
+*   **WiFi Deauth Attack:** Disconnecting devices from Wi-Fi networks (Linux Root required).
+
+### 🌐 Reconnaissance & OSINT
+*   **Proxy Deep Scan:** Finding and validating high-speed anonymous proxies.
+*   **Subdomain Enumerator:** Cloud-synced discovery of subdomains (e.g., dev.target.com).
+*   **Directory Scanner:** Cloud-synced scanning for hidden web resources.
+*   **Tech Detector:** Identifying CMS (WordPress, Joomla) and server frameworks.
+*   **Passive Traffic Monitor:** Real-time packet sniffing (Windows Admin/Linux Root).
+*   **Whois & GeoIP:** Domain ownership and physical location data.
+
+### 🔑 Authentication & Cracking
+*   **Web Brute-Force:** Automated login testing via HTTP POST.
+*   **Hash Cracker:** Dictionary attack tool for MD5, SHA1, SHA256, SHA512.
+*   **Hash Generator:** Creating hashes for text verification.
+
+### 🔧 System Integration
+*   **Cluster Mode (v2):** Coordinate attacks using multiple devices (Master/Slave).
+*   **Startup Manager:** Configure PULSAR to launch on system boot.
+*   **PATH Integration:** Run the tool from any command line window.
 
 ---
 
 ## 📥 Download & Installation
 
-The software is distributed as a portable executable and does not require installation.
+The software is distributed as a **portable** executable (no installation required).
 
-1.  Go to the **[Releases](../../releases)** tab on the right side of this page.
-2.  Download the latest file for your architecture.
-3.  Run the corresponding executable (`PULSARx64.exe` / `PULSARlinux-x64`, etc.).
+1.  Go to the **[Releases](../../releases)** tab.
+2.  Download the file matching your OS.
+3.  Run the executable (`PULSARx64.exe` or `PULSARlinux-x64`).
 
-> **Requirements:** Windows 10/11/Linux.
+### 🛡️ Antivirus Note
+Security software (Windows Defender, etc.) may flag this tool as *HackTool* or *PUP* due to the inclusion of stress testing, credential dumping, and proxy scanning modules. This is a **False Positive** typical for security auditing software. You may need to whitelist the application folder.
 
-### 🛡️ Important Note Regarding Antivirus
-Antivirus software (e.g., Windows Defender) may flag this application as a threat (e.g., *HackTool*). This is a **False Positive**—standard behavior for tools that contain network scanners and stress testing modules. You may need to add an exception to run it.
-
-### 🔑 Privileges Required
-To use advanced features such as:
-*   WiFi Deauth Attack (Linux Root/Sudo),
-*   Sniffer (Raw Sockets - Windows Admin/Linux Root),
-*   Cluster Mode (if running Master),
-*   System Integration (PATH/Startup - Windows Admin),
-
-...you must run the program with **elevated privileges** (Right-click -> *Run as administrator* or use `sudo` on Linux).
+### 🔑 Privileges
+To use the **Post-Exploitation** modules and **Raw Socket** features (Sniffer, Deauth, UDP Flood), you must run the application with **Administrator** (Windows) or **Root** (Linux) privileges.
 
 ---
 
 ## 📜 License
 
-**PULSAR** is **Freeware (Closed Source)**.
-You may use it for free for personal, educational, and authorized security testing purposes.
+**PULSAR** is **Freeware**.
+You may use it for personal education and authorized testing.
 
 ❌ **RESTRICTIONS:**
-*   Reverse Engineering, decompilation, and modification of the code are strictly prohibited.
-*   Selling or sub-licensing the software is prohibited.
-*   Using this software for illegal activities is prohibited.
+*   Reverse Engineering or decompiling the code is prohibited.
+*   Use for illegal activities (DDoS, unauthorized hacking) is strictly prohibited.
+*   Redistribution of modified binaries is not allowed.
 
-See the [LICENSE](LICENSE) file for the full End User License Agreement (EULA).
+See the [LICENSE](LICENSE) file for details.
