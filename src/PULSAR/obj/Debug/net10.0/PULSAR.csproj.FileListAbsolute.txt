@@ -1,0 +1,17 @@
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\obj\Debug\net10.0\PULSAR.csproj.AssemblyReference.cache
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\obj\Debug\net10.0\PULSAR.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\obj\Debug\net10.0\PULSAR.AssemblyInfoInputs.cache
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\obj\Debug\net10.0\PULSAR.AssemblyInfo.cs
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\obj\Debug\net10.0\PULSAR.csproj.CoreCompileInputs.cache
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\bin\Debug\net10.0\PULSAR.exe
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\bin\Debug\net10.0\PULSAR.deps.json
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\bin\Debug\net10.0\PULSAR.runtimeconfig.json
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\bin\Debug\net10.0\PULSAR.dll
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\bin\Debug\net10.0\PULSAR.pdb
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\bin\Debug\net10.0\MihaZupan.HttpToSocks5Proxy.dll
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\obj\Debug\net10.0\PULSAR.csproj.Up2Date
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\obj\Debug\net10.0\PULSAR.dll
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\obj\Debug\net10.0\refint\PULSAR.dll
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\obj\Debug\net10.0\PULSAR.pdb
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\obj\Debug\net10.0\PULSAR.genruntimeconfig.cache
+c:\Users\mckkw\Desktop\Private\projects\.PULSAR\C#\PULSAR\src\PULSAR\obj\Debug\net10.0\ref\PULSAR.dll

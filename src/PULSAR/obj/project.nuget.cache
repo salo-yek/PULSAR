@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "bGg2hNpN32o=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mckkw\\Desktop\\Private\\projects\\.PULSAR\\C#\\PULSAR\\src\\PULSAR\\PULSAR.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mckkw\\.nuget\\packages\\httptosocks5proxy\\1.4.0\\httptosocks5proxy.1.4.0.nupkg.sha512"
+  ],
+  "logs": []
+}
