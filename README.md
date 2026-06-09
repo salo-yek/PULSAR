@@ -45,7 +45,7 @@ The developers assume **no liability** for misuse of this software.
 
 ```bash
 # Clone the repository
-git clone https://github.com/PULSAR-Project/PULSAR.git
+git clone https://github.com/salo-yek/PULSAR.git
 cd PULSAR
 
 # Build and run
